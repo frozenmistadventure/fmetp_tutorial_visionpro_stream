@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/VisionProStreamer/FMNetwork_VisionPro_Sender.unity
+    guid: 7b8e5f72a775d47849229a006e1f0f65
+  - enabled: 0
+    path: Assets/Scenes/VisionProStreamer/FMNetwork_Viewer.unity
+    guid: 78ae041f7d8364a62a8a491a8543d498
+  - enabled: 0
+    path: Assets/Scenes/VisionProViewer/FMNetwork_Desktop_Sender(Server).unity
+    guid: 153e5d31d755d4d9cace6494358a185e
+  - enabled: 0
+    path: Assets/Scenes/VisionProViewer/FMNetwork_VisionPro_Viewer(Client).unity
+    guid: 2bdca01ca9beb48c4b4467f9d50ee088
+  - enabled: 0
+    path: Assets/Scenes/TroubleshootingScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 24293cc04216440f49a25c675a39039f, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.polyspatial.xr.xr_settings: {fileID: 11400000, guid: cdf4bb71adc90448f9712b9c489d260b, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5f42a5b33569e43b88f6846c78365a68, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f7f05bb5e66ea4d4194d22f423e394d3, type: 2}
+  m_UseUCBPForAssetBundles: 0

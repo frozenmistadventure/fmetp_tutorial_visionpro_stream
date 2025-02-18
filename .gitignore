@@ -1,21 +1,22 @@
 # This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-
-# MemoryCaptures can get excessive in size.
-# They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
+/[Aa]ssets/FM_ExhibitionToolPack/
+/[Aa]ssets/FM_Polygon_Japan/
+/[Aa]ssets/FMETP_STREAM/
+/[Aa]ssets/FMETP_STREAM_AddOns/
+/[Aa]ssets/FMDemo/
+/[Uu]serSettings/Layouts/
 
-# Recordings can get excessive in size
-/[Rr]ecordings/
+*.DS_Store
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
